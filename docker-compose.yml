@@ -1,0 +1,12 @@
+services:
+  api:
+    build: . # Constroi a imagem a partir ddo Dockerfile na raiz do projeto
+    container_name: api  # Nome do contêiner
+
+    ports:
+      - "8000:8000" # Mapeia a imagem a porta 8000 do host para a porta 8000 do contêiner
+ 
+    volumes:      
+               # O banco de dados (escola.db) será salvo no seu diretório local.
+      - .:/app # Monta o diretório atual no contêiner para permitir o hot-reloading.
+    command: uvicorn app:app --host 0.0.0.0 --port 8000 --reload
