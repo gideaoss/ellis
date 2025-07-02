@@ -22,6 +22,9 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 ## - [git fetch](https://github.com/git/git)
 ## Nota: O comando acima não apaga a pasta do seu disco, apenas remove o rastreamento dela ## pelo Git.
 ## git rm --cached -r git
+## git config --global user.name "Seu Nome"
+## git config --global user.email "Seu Email"
+#
 
 - [Git](https://git-scm.com/downloads)
 
@@ -64,10 +67,10 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 6. **Acesse a documentação interativa:**
 
-   Abra o navegador e acesse:  
-   [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+##  Abra o navegador e acesse:  
+##   [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
-   Aqui você pode testar todos os endpoints da API de forma interativa.
+##   Aqui você pode testar todos os endpoints da API de forma interativa.
 
 ---
 
@@ -112,7 +115,19 @@ Certifique-se de que o Docker Desktop está em execução.
    http://localhost:8000/docs
    http://127.0.0.1:8000/docs
    ´´´ 
-
+## **** Comando do Github  ****
+## or create a new repository on the command line
+## echo "# ellis" >> README.md
+## git init
+## git add README.md
+## git commit -m "first commit"
+## git branch -M main
+## git remote add origin https://github.com/gideaoss/ellis.git
+## git push -u origin main
+## …or push an existing repository from the command line
+## git remote add origin https://github.com/gideaoss/ellis.git
+## git branch -M main
+## git push -u origin main
 
 5. **Palavra Chave de Acesso:**
 - Aula 01 01/07/2025 Min 49:04
